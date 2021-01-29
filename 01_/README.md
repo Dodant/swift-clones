@@ -1,6 +1,7 @@
 # RSP Game
 
-[SwiftUI 2.0 - How to make an iPhone App (2020)]: https://www.youtube.com/watch?v=68g4z6CVIaQ
+[SwiftUI 2.0 - How to make an iPhone App (2020)](https://www.youtube.com/watch?v=68g4z6CVIaQ)
+by BeyondOnesAndZeros
 
 ## Markup Comments
 
