@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-// MARK: Model
+// MARK: - Model
 struct RSPGame {
 	enum Move : String, CaseIterable {
 		case rock = "✊", scissors = "✌️", papers = "🖐"
@@ -58,7 +58,7 @@ struct RSPGame {
 	}
 }
 
-// MARK: ViewModel
+// MARK: - ViewModel
 final class RSPGameViewModel : ObservableObject {
 	@Published private var model = RSPGame()
 	
@@ -119,7 +119,7 @@ final class RSPGameViewModel : ObservableObject {
 }
 
 
-// MARK: View
+// MARK: - View
 struct ContentView: View {
 	@ObservedObject var viewModel = RSPGameViewModel()
 	
